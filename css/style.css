@@ -730,3 +730,26 @@ footer .credit a {
     text-align: center;
   }
 }
+@media (max-width: 380px) {
+  html {
+    font-size: 55%;
+  }
+  .list .row .food-list .food,
+  .list .row .food-list .seafood {
+    margin: 0 0;
+  }
+  .list .row .food-list .sayuran,
+  .list .row .food-list .sambal {
+    margin: 0 1rem;
+  }
+  .list .row .food-list .sambal {
+    margin-right: 8rem;
+  }
+
+  .contact .row .kolom-komentar-komentator {
+    padding: 3rem;
+    width: 100%;
+    font-weight: 500;
+    font-size: 0.75rem;
+  }
+}
