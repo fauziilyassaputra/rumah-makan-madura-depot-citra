@@ -272,15 +272,18 @@ body {
 }
 
 .contact .row form {
-  padding: 5rem;
+  padding: 1rem;
   text-align: center;
+}
+
+.contact .row .slide {
+  line-height: 1.7;
 }
 .contact .row .kolom-komentar {
   margin-bottom: 3rem;
 }
 
 .contact .row .kolom-komentar-komentator {
-  padding: 3rem;
   width: 100%;
   font-weight: 500;
   font-size: 3rem;
@@ -403,7 +406,7 @@ footer .credit a {
 }
 
 .kenangan {
-  min-height: 80vh;
+  min-height: 85vh;
   display: flex;
   align-items: center;
   background-image: url(../img/gambarlobi.png);
@@ -413,6 +416,9 @@ footer .credit a {
   position: relative;
   border: 5px solid white;
   transition: 1s;
+}
+.form .slide .tombols {
+  padding: 2rem 0;
 }
 .form .slide .tombols .tombol1,
 .form .slide .tombols .tombol2,
@@ -508,7 +514,7 @@ footer .credit a {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2rem;
-    height: 60rem;
+    height: 72rem;
     background-color: white;
   }
 
@@ -516,11 +522,12 @@ footer .credit a {
     margin: auto;
   }
   .contact .row .kolom-komentar {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
   }
   .contact .row .kolom-komentar-komentator {
-    padding: 1rem;
+    margin: 2rem 0;
     width: 100%;
+    padding: 0;
   }
 
   .contact .row .kolom-komentar-komentator img {
@@ -528,8 +535,8 @@ footer .credit a {
   }
 
   .contact .row .kolom-komentar-komentator p {
-    font-size: 1em;
     font-weight: 600;
+    font-size: 1.5rem;
   }
   .contact .row .kolom-komentar-komentator span {
     display: block;
@@ -632,13 +639,17 @@ footer .credit a {
   .kenangan3 {
     background-image: url(../img/lobidalam.jpg);
   }
+
+  .form .slide .tombols {
+    padding: 0 0;
+  }
   .form .slide .tombols .tombol1,
   .form .slide .tombols .tombol2,
   .form .slide .tombols .tombol3,
   .form .slide .tombols .tombol4,
   .form .slide .tombols .tombol5 {
-    width: 5rem;
-    height: 3rem;
+    width: 3rem;
+    height: 2rem;
   }
 }
 

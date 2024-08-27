@@ -33,13 +33,13 @@ tombol2.addEventListener("click", (event) => {
 });
 tombol3.addEventListener("click", (event) => {
   komentar.innerHTML =
-    '<img src="komentator/arifin.png" alt=""> <p class="komentar"><span>arifin waluya</span>Tempat ini easy to notice Masakannya cocok dengan lidah saya lidah jawa harga Alhamdulillah bersahabat </p>';
+    '<img src="komentator/arifin.png" alt=""> <p class="komentar"><span>arifin waluya</span>............................................................ Tempat ini easy to notice Masakannya cocok dengan lidah saya lidah jawa harga Alhamdulillah bersahabat</p>';
 });
 tombol4.addEventListener("click", (event) => {
   komentar.innerHTML =
-    '<img src="komentator/rezeki.png" alt=""> <p class="komentar"><span>Awal M Rezeki</span> Harga murah, rasa enak, variasi menu banyak, lokasi strategis, tempat bersih dan luas... Yg terpenting lagi penjualnya ramah</p>';
+    '<img src="komentator/rezeki.png" alt=""> <p class="komentar"><span>Awal M Rezeki</span> ............................................................... Harga murah, rasa enak, variasi menu banyak, lokasi strategis, tempat bersih dan luas... Yg terpenting lagi penjualnya ramah</p>';
 });
 tombol5.addEventListener("click", (event) => {
   komentar.innerHTML =
-    '<img src="komentator/saifudin.png" alt=""> <p class="komentar"><span>Saifudin Gituloh</span>.....Disini disediakan tempat lesehan maupun duduk. Untuk harga cukup murah. Lahan parkir yang disediakan luas. Waktu saya berkunjung disini tidak ada tukang parkir sehingga bebas parkir.</p>';
+    '<img src="komentator/saifudin.png" alt=""> <p class="komentar"><span>Saifudin Gituloh</span>...disediakan tempat lesehan maupun duduk. Untuk harga cukup murah.... Waktu saya berkunjung disini tidak ada tukang parkir sehingga bebas parkir.</p>';
 });
