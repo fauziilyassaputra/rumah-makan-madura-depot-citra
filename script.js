@@ -29,7 +29,7 @@ tombol1.addEventListener("click", (event) => {
 });
 tombol2.addEventListener("click", (event) => {
   komentar.innerHTML =
-    '<img src="komentator/puteri.png" alt=""> <p class="komentar"><span>Puteri Qotrina</span> Makanan seafood enak bumbu rumahan harga bersahabat banget. Potongan ikannya gede2. Fresh. Ada jg non seafood. RM oldschool tp tetap survive Krn RASA</p>';
+    '<img src="komentator/puteri.png" alt=""> <p class="komentar"><span>Puteri Qotrina</span> Makanan seafood enak bumbu rumahan harga bersahabat banget. Potongan ikannya gede2. Fresh. Ada jg non seafood. RM oldschool tp tetap survive Krn RASA </p>';
 });
 tombol3.addEventListener("click", (event) => {
   komentar.innerHTML =

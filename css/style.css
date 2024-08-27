@@ -283,9 +283,12 @@ body {
   padding: 3rem;
   width: 100%;
   font-weight: 500;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
+.contact .row .kolom-komentar-komentator p {
+  font-size: 1.8rem;
+}
 .contact .row .kolom-komentar-komentator .komentar .tombol5 {
   font-size: 1rem;
 }
@@ -526,6 +529,7 @@ footer .credit a {
 
   .contact .row .kolom-komentar-komentator p {
     font-size: 1em;
+    font-weight: 600;
   }
   .contact .row .kolom-komentar-komentator span {
     display: block;
