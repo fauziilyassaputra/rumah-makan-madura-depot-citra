@@ -25,7 +25,7 @@ const tombol5 = document.querySelector(".tombol5");
 
 tombol1.addEventListener("click", (event) => {
   komentar.innerHTML =
-    '<img src="komentator/matt.png" alt=""> <p class="komentar"><span>Matt Journey</span> Masakan khas madura yang susah untuk tidak mampir jika melewati jalan arah ke Pamekasan (jika dari arah barat) atau jalan arah ke Sampang (jika dari arah timur)</p>';
+    '<img src="komentator/matt.png" alt=""> <p class="komentar"><span>Matt Journey</span>Masakan khas madura yang susah untuk tidak mampir jika melewati jalan arah ke Pamekasan (jika dari arah barat) atau jalan arah ke Sampang (jika dari arah timur)</p>';
 });
 tombol2.addEventListener("click", (event) => {
   komentar.innerHTML =
