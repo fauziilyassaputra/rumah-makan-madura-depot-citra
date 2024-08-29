@@ -33,7 +33,7 @@ tombol2.addEventListener("click", (event) => {
 });
 tombol3.addEventListener("click", (event) => {
   komentar.innerHTML =
-    '<img src="komentator/arifin.png" alt=""> <p class="komentar"><span>arifin waluya</span>Tempat ini easy to notice Masakannya cocok dengan lidah saya lidah jawa harga Alhamdulillah bersahabat</p>';
+    '<img src="komentator/arifin.png" alt=""> <p class="komentar"><span>arifin waluya</span>Tempat ini easy to notice Masakannya cocok dengan lidah saya lidah jawa harga Alhamdulillah bersahabat </p>';
 });
 tombol4.addEventListener("click", (event) => {
   komentar.innerHTML =
