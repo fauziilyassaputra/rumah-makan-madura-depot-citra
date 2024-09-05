@@ -472,6 +472,70 @@ footer .credit a {
 .form .slide .tombols .tombol5:hover {
   opacity: 0.5;
 }
+
+nav {
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: animation1 0.4s linear 0.8s forwards;
+}
+
+@keyframes animation1 {
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+main.content {
+  opacity: 0;
+  filter: blur(50%);
+  transform: translateY(50px);
+  animation: textblur 1s linear forwards;
+}
+
+.about {
+  opacity: 0;
+  filter: blur(50%);
+  transform: translateY(50px);
+  animation: textblur 2s linear 1s forwards;
+}
+
+.show {
+  opacity: 0;
+  filter: blur(50%);
+  transform: translateY(80px);
+  animation: textblur 1.2s linear forwards;
+}
+
+@keyframes textblur {
+  to {
+    transform: translateY(0);
+    filter: blur(none);
+    opacity: 1;
+  }
+}
+
+.geserkanan {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(100%);
+  animation: geseranima 1s linear forwards;
+}
+.geserkiri {
+  opacity: 0;
+  filter: blur(5px);
+  transform: translateX(-100px);
+  animation: geseranima 1s linear forwards;
+}
+
+@keyframes geseranima {
+  to {
+    opacity: 1;
+    filter: blur(0);
+    transform: translatex(0);
+  }
+}
+
 /* media queries */
 
 /* laptop */
@@ -739,7 +803,6 @@ footer .credit a {
   .memorie {
     height: 80rem;
     display: inline-block;
-    transition: 1s;
     width: 100%;
   }
 

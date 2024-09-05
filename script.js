@@ -43,3 +43,36 @@ tombol5.addEventListener("click", (event) => {
   komentar.innerHTML =
     '<img src="komentator/saifudin.png" alt=""> <p class="komentar"><span>Saifudin Gituloh</span>...disediakan tempat lesehan maupun duduk. Untuk harga cukup murah.... Waktu saya berkunjung disini tidak ada tukang parkir sehingga bebas parkir.</p>';
 });
+
+const observer = new IntersectionObserver((enteries) => {
+  enteries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+const hiddenElements = document.querySelectorAll(".scrollanima");
+hiddenElements.forEach((el) => observer.observe(el));
+
+const observer2 = new IntersectionObserver((enteries) => {
+  enteries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("geserkanan");
+    }
+  });
+});
+
+const geserkanan = document.querySelectorAll(".geserkanans");
+geserkanan.forEach((el) => observer2.observe(el));
+
+const observer3 = new IntersectionObserver((enteries) => {
+  enteries.forEach((entry) => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add("geserkiri");
+    }
+  });
+});
+
+const geserkiri = document.querySelectorAll(".geserkiris");
+geserkiri.forEach((el) => observer3.observe(el));
